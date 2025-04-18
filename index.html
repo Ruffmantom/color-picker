@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="color-picker">
+        <canvas id="saturation-brightness" width="200" height="200"></canvas>
+        <input type="range" id="hue" min="0" max="360" value="0">
+
+        <span id="output_name"></span>
+        <div class="preview_container">
+            <div id="preview"></div>
+            <span id="color_value_output">#000000</span>
+            <button id="color_type_btn" title="Switch color value">
+                <span>↕</span>
+            </button>
+        </div>
+
+        <div class="form_group">
+            <label for="colorName">Add optional descriptor</label>
+            <input type="text" placeholder="font color" id="color_name_input">
+        </div>
+
+        <button id="add_swatch_button">Add Swatch</button>
+
+    </div>
+
+    <div class="swatches_container">
+
+
+    </div>
+
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
