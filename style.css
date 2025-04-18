@@ -24,6 +24,15 @@
     padding: 1rem;
 }
 
+span{
+    color: #000;
+    color: hsl(0, 0%, 0%);
+    color: hwb(0 0% 100%);
+    color: lch(0% 0 0);
+    color: rgb(0, 0, 0);
+    color: hwb(0 0% 100%);
+}
+
 #saturation-brightness {
     border: 1px solid #ccc;
     border-radius: 10px;
